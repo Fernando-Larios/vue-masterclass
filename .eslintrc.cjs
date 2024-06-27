@@ -12,11 +12,11 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
   //this rules are to silence/show errors
-  /*
+
   rules: {
-    'no-unused-vars': 2
+    //'no-unused-vars': 2
+    'vue/multi-word-component-names': 0
   }
-  */
 }
